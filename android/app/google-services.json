@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "367864213750",
+    "project_id": "skyhomes-app",
+    "storage_bucket": "skyhomes-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367864213750:android:39e298ca8d447372f5bcd7",
+        "android_client_info": {
+          "package_name": "com.bloom.skyhomes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABSDbufsSkOQATo8vNeSdbQz7GBfWWHL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
