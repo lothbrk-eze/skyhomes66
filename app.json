@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "expo-video"
+  ],
+  "android": {
+    "package": "com.ezekiel_101.hood5"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "47c5b68b-9983-4256-af27-8ddd7b93c5c9"
+    }
+  }
+}
