@@ -1,13 +1,65 @@
 {
-  "plugins": [
-    "expo-video"
-  ],
-  "android": {
-    "package": "com.ezekiel_101.hood5"
-  },
-  "extra": {
-    "eas": {
-      "projectId": "47c5b68b-9983-4256-af27-8ddd7b93c5c9"
-    }
+  "expo": {
+    "name": "SkyHomes",
+    "slug": "skyhomes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "com.bloom.skyhomes",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "icon": "./assets/images/skyhpng.png",
+    "splash": {
+      "image": "./assets/images/Black and White Minimalist Monogram Personal Logo.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FFFFFF"
+    },
+    "android": {
+      "googleServicesFile": "./google-services (2).json",
+      "package": "com.bloom.skyhomes",
+      "versionCode": 14,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/Black and White Hood Homes Logo.png",
+        "backgroundColor": "#FFFFFF",
+        "monochromeImage": "./assets/images/Black and White Hood Homes Logo.png"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "ios": {
+      "bundleIdentifier": "com.bloom.skyhomes",
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-router",
+      "expo-video",
+      "expo-notifications",
+      "@react-native-google-signin/google-signin",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-5733651117312390~3263596738",
+          "iosAppId": "ca-app-pub-5733651117312390~3263596738"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {"enableMinifyngInReleaseBuilds": true}
+        }
+      ],
+      "expo-web-browser",
+      "expo-splash-screen",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9d5a96b1-7efa-4e78-aa85-85c391b1195c"
+      }
+    },
+    "owner": "ezekiel_101"
   }
 }
